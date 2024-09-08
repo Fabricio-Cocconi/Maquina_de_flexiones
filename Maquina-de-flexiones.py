@@ -99,7 +99,7 @@ def interactuar() :
         print("\nSesión finalizada.")
         print(maquina)
         if not maquina.verificar_objetivo():
-            print(usuario,"No alcanzaste tu objetivo esta vez. ¡Ánimo para la próxima!")
+            print("No alcanzaste tu objetivo esta vez. ¡Ánimo para la próxima!")
         menu_final(maquina)
 
 def menu_final(maquina):
@@ -143,7 +143,7 @@ def menu_final(maquina):
                     print("\nSesión finalizada.")
                     print(maquina)
                     if not maquina.verificar_objetivo():
-                        print(usuario,"No alcanzaste tu objetivo esta vez. ¡Ánimo para la próxima!")
+                        print("No alcanzaste tu objetivo esta vez. ¡Ánimo para la próxima!")
 
             except ValueError as e:
                 print(e)
